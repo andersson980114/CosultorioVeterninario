@@ -6,25 +6,32 @@
     <meta name="Veterinaria Acme" content="width=device-width, initial-scale=1.0">
     <title>SCVA</title>
     <link rel="stylesheet" href="../Estilos/ingreso.css">
-    <link rel="stylesheet" href="../Estilos/Barra.css">
-    
 </head>
 <body>
     <!--caja donde están los elementos-->  
-    <img src="../Estilos/image/logo-acme.png">
+    
     <div class="loginBox">
-        <h1>Iniciar Sesión</h1>
+        <div class="logo">
+            <img src="../Estilos/image/logo-acme.png">
+        </div>
+        
+        <h1>INICIAR SESION</h1>
         <Form>
-            <label for="userName">Ingrese su Usuario</label>
-            <input type="text" name="Usuario" id="Usuario">
-            <br>
-            <label for="PassWord">Ingrese su Contraseña</label>
-            <input type="password" name="Contraseña" id="Contraseña">
-            <br>  
+            <label >Usuario</label>
+
+            <div class ="inUser">
+                <input type="text" name="Usuario" id="Usuario" placeholder="Ingrese su Usuario">
+            </div>
+            
+            <label>Contraseña</label>
+            <div class="inPassword">
+                <input type="password" name="Contraseña" id="Contraseña" placeholder="Ingrese su Contraseña">
+            </div>
+            
         </Form>
         <!--boton-->
         <div id="boton">
-            <a href="Menu.html" class="btn">Ingresar</a>
+            <a href="Menu.html" class="btn ">INGRESAR</a>
         </div>
     </div>
   
