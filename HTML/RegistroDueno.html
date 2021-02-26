@@ -5,55 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ab566bad4a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../Estilos/RegistroDueno.css">
+     
     <title>RegistroDueño</title>
+    <link rel="stylesheet" href="../Estilos/RegistroDueno.css">
+    <link rel="stylesheet" href="../Estilos/BarraA.css">
 </head>
 <body>
-    <form class="RegistroDueño">
-        <h1>Registro del dueño</h1>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="far fa-address-card"></i>
-                <input type="number" placeholder="Documento de identidad">
+    <!--Menú-->
+    <nav>
+        <div class="logo"><strong><img src="../Estilos/image/logo-acme.png" alt=""></strong></div>
+        <ul class="links">
+            <li><a href="UserRegister.html">Registrar Recepcionista</a></li>
+            <li><a href="UserRegister.html">Registrar Veterinario</a></li>
+            <li><a href="RegistroProcedimiento.html">Registrar Procedimiento</a></li>
+            <li><a href="RegistroProducto.html">Registrar Producto</a>
+            </li>
+            <li><a href="#GeneroReporte">Generar Reporte</a></li>
+            <li> <a href="#"><span class="" ><i class="fas fa-user-tie"></i></span></a>
+                <ul>
+                   <li><a href="Ingreso.html"> Cerrar sesión</a></li>
+               </ul>
+            </li>
+            
+        </ul> 
+    </nav>
+    <!--Caja-->
+    <div class="loginBox"> 
+        <form class="RegistroDueño">
+            <h1>Registro del dueño</h1>
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="far fa-address-card"></i>
+                    <input type="number" placeholder="Documento de identidad">
+                
+                    <i class="fas fa-user-edit"></i>
+                    <input type="text" placeholder="Nombre">
+                </div>
+             
+                <div class="input-contenedor">
+                    <i class="fas fa-user-edit"></i>
+                    <input type="text" placeholder="Apellido">
+                 
+                    <i class="fas fa-phone-volume"></i>
+                    <input type="number" placeholder="Telefono">
+                </div>
+             
+                <div class="input-contenedor">
+                    <i class="fas fa-home"></i>
+                    <input type="text" placeholder="Dirección">
+                 
+                    <i class="fas fa-at"></i>
+                    <input type="text" placeholder="Correo">
+                </div>
+            
+            <div id="boton">
+                <a href="RegistroDueno.html" class="btn">Registrar</a>
+             
+                <a href="RegistroDueno.html" class="btn2">Guardar y Registrar Mascota</a>
             </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-user-edit"></i>
-                <input type="text" placeholder="Nombre">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-user-edit"></i>
-                <input type="text" placeholder="Apellido">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-phone-volume"></i>
-                <input type="number" placeholder="Telefono">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-home"></i>
-                <input type="text" placeholder="Dirección">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-at"></i>
-                <input type="text" placeholder="Correo">
-            </div>
-        <input type="checkbox" id="terms"><span>Aceptar los: <a href="">Términos y condiciones</a></span>
-        </div>
-        <div id="boton">
-            <a href="RegistroDueno.html" class="RegistrarD">Registrar</a>
-        </div>
-        <div id="boton">
-            <a href="RegistroDueno.html" class="RegistrarP">Guardar y registrar mascota</a>
-        </div>
-    </form>
+        </form>
+    </div>
 </body>
 </html>
