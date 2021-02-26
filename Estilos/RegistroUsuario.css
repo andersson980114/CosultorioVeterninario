@@ -15,11 +15,11 @@ img{
 }
 
 .loginBox{
-    margin-top: 150px;
+    margin-top: 240px;
     margin-bottom: 150px;
-    width: 400px;
-    height: 860px;
-    background: #06aff1;
+    width: 500px;
+    height: 960px;
+    background: #000000;
     opacity: 55%;
     color: #fff;
     top: 50%;
@@ -38,7 +38,7 @@ img{
     font-family: sans-serif;
     color: #FFF;
     text-shadow: black 0.1em 0.1em ;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .loginBox label{
@@ -47,7 +47,7 @@ img{
     font-weight: bold;
     text-shadow: black 0.1em 0.1em;
     display: block;
-    font-size: 25px; 
+    font-size: 20px; 
 }
 
 .loginBox input{
@@ -64,7 +64,7 @@ img{
     outline: none;
     height: 40px;
     color: #fff;
-    font-size: 20px;   
+    font-size: 15px;   
 }
 
 .btn{  
@@ -78,4 +78,9 @@ img{
     font-size: 25px;
     text-shadow: black 0.1em 0.1em;
     border-radius: 7px;
+}
+
+form .casilla span a{
+ color: white;
+
 }
