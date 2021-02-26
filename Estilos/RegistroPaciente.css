@@ -55,6 +55,7 @@ img{
     margin-bottom: 30px;
 }
 
+
 .loginBox select{
     width: 40%;
     margin: 0  5% 0 0 ;
@@ -66,6 +67,17 @@ img{
     color: rgb(255, 255, 255);
     font-size: 15px;   
 }
+
+.loginBox input[type="date"]{  
+    margin: 10px  5% 0 0 ;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: rgba(46, 39, 39, 0.541);
+    outline: none;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;   
+} 
 
 .loginBox input[type="email"],
 .loginBox input[type="text"],
