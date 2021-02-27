@@ -93,32 +93,32 @@ img{
     font-size: 15px;   
 }
 
-.btn{  
-    margin-top: 12%;
-    margin-left: 20%;
+.btn, .btn2{
     display: inline-block;
-    padding: 10px 15px;
     text-decoration: none;
     background: #f50505; 
     color: #fff;
-    font-size: 25px;
     text-shadow: black 0.1em 0.1em;
     border-radius: 7px;
+
+}
+
+.btn{  
+    margin-top: 12%;
+    margin-left: 20%; 
+    padding: 10px 15px; 
+    font-size: 25px; 
     transform: translate(-50%, -50%);
 }
 
 .btn2{  
     margin-top: 0%;
-    margin-left: 60%;
-    display: inline-block;
-    padding: 5px 20px 4px 35px;
-    text-decoration: none;
-    background: #f50505; 
-    color: #fff;
-    font-size: 20px;
-    text-shadow: black 0.1em 0.1em;
+    margin-left: 60%; 
+    padding: 5px 20px;  
+    font-size: 20px; 
     border-radius: 7px;
     transform: translate(-15%, -130%);
+    text-align: center;
 }
 
 form span a{ 
