@@ -6,51 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ab566bad4a.js" crossorigin="anonymous"></script>
     <title>Registro de Paciente</title>
+    
+    <link rel="stylesheet" href="../Estilos/RegistroPaciente.css">
+    <link rel="stylesheet" href="../Estilos/BarraA.css"> 
 </head>
 <body>
-    <form class="RegistroPaciente">
-        <h1>Registro del paciente</h1>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="far fa-address-card"></i>
-                <input type="number" placeholder="ID del dueño">
+    <!--Menú-->
+    <nav>
+        <div class="logo"><strong><img src="../Estilos/image/logo-acme.png" alt=""></strong></div>
+        <ul class="links">
+            <li><a href="UserRegister.html">Registrar Recepcionista</a></li>
+            <li><a href="UserRegister.html">Registrar Veterinario</a></li>
+            <li><a href="RegistroProcedimiento.html">Registrar Procedimiento</a></li>
+            <li><a href="RegistroProducto.html">Registrar Producto</a>
+            </li>
+            <li><a href="#GeneroReporte">Generar Reporte</a></li>
+            <li> <a href="#"><span class="" ><i class="fas fa-user-tie"></i></span></a>
+                <ul>
+                   <li><a href="Ingreso.html"> Cerrar sesión</a></li>
+               </ul>
+            </li>
+            
+        </ul> 
+    </nav>
+    <!--Caja-->
+    <div class="loginBox"> 
+        <form class="RegistroPaciente">
+            <h1>Registro del Paciente</h1>
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="far fa-address-card"></i>
+                    <input type="number" placeholder="ID del dueño">
+                    
+                    <i class="far fa-edit"></i>
+                    <input type="text" placeholder="Nombre Del Paciente">
+                </div>
+            
+                <div class="input-contenedor">
+                    <i class="fas fa-paw"></i>
+                    <select name="especie" id="Especie" placeholder="Especie" >
+                        <option value="r1">Especie1</option>
+                        <option value="r2">Especie2</option>
+                        <option value="r3">Especie3</option>
+                    </select>
+                
+                    <i class="fas fa-paw"></i> 
+                    <select name="raza" id="Raza" placeholder="Raza" >
+                        <option value="r1">Raza1</option>
+                        <option value="r2">Raza3</option>
+                        <option value="r3">Raza2</option>
+                    </select> 
+                </div>
+            
+                <div class="input-contenedor">
+                    <i class="fas fa-transgender"></i>
+                    <input type="text" placeholder="Sexo">
+                </div>
+                <div class="input-contenedor"></div>
+                    <i class="far fa-calendar-alt"></i>
+                    <input type="date" placeholder="Fecha de nacimiento">
+                </div>
+             
+            <div id="boton">
+                <a href="RegistroPaciente.html" class="btn">Registrar</a>
             </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-paw"></i>
-                <input type="text" placeholder="Especie">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="far fa-edit"></i>
-                <input type="text" placeholder="Nombre">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-paw"></i>
-                <input type="number" placeholder="Raza">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-transgender"></i>
-                <input type="text" placeholder="Sexo">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="far fa-calendar-alt"></i>
-                <input type="date" placeholder="Fecha de nacimiento">
-            </div>
-        <input type="checkbox" id="terms"><span>Aceptar los: <a href="">Términos y condiciones</a></span>
-        </div>
-        <div id="boton">
-            <a href="RegistroPaciente.html" class="RegistrarP">Registrar</a>
-        </div>
-        
-    </form>
+            
+        </form>
+    </div>
 </body>
 </html>
