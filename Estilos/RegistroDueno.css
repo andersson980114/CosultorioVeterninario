@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(image/fondo3.png) no-repeat center top;
+    background: url(image/fondo4.png) no-repeat center top;
     background-size: cover ;
     font-family: sans-serif;
     height: 100vh;
@@ -18,8 +18,8 @@ body{
 }
 .RegistroDueño{
     margin-top: 20px;
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 600px;
     background: #000000;
     opacity: 60%;
     color: #fff;
@@ -31,11 +31,22 @@ body{
     padding: 70px 30px; 
     border-radius: 7px;
 }
+.RegistroDueño input[type="text"],
+.RegistroDueño input[type="number"],
+.RegistroDueño input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;   
+}
 
 .contenedor{  
     margin-top: 3%;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     
 }
 
@@ -44,7 +55,7 @@ form .contenedor span, form .contenedor span a{
 }
 
 form .RegistrarDueño, form .RegistrarD{
-    width: 50%;
+    width: 10%;
     height: 30px;
     padding: 20px;
     font-size: 1.2em;
