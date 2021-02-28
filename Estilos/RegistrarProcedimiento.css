@@ -1,23 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(image/fondo2.jpg) no-repeat center top;
+    background: url(image/fondo4.png) no-repeat center top;
     background-size: cover ;
     font-family: sans-serif;
     height: 100vh;
 }
 
-img{
-    margin-top: 30px;
-    margin-left: 37%;
-    width: 27%;
-    height: 15%;
-}
-
 .loginBox{
     margin-top: 240px;
     margin-bottom: 150px;
-    width: 700px;
+    width: 600px;
     height: 400px;
     background: #000000;
     opacity: 80%;
@@ -27,7 +20,7 @@ img{
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box; 
-    padding: 3% 3%; 
+    padding: 2% 1%; 
     border-radius: 7px;
 }
 
@@ -51,38 +44,17 @@ img{
 }
 
 .loginBox input{
-    width: 40%;
+    width: 70%;
     margin-bottom: 30px;
 }
 
-
-.loginBox select{
-    width: 40%;
-    margin: 0  5% 0 0 ;
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: rgba(0, 0, 0, 0.685);
-    outline: none;
-    height: 40px;
-    color: rgb(255, 255, 255);
-    font-size: 15px;   
+.loginBox .contenedor{
+    margin-left: 20%;
 }
-
-.loginBox input[type="date"]{  
-    margin: 10px  5% 0 0 ;
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: rgba(46, 39, 39, 0.541);
-    outline: none;
-    height: 35px;
-    color: #fff;
-    font-size: 15px;   
-} 
-
-.loginBox input[type="email"],
+ 
 .loginBox input[type="text"],
 .loginBox input[type="number"]{ 
-    margin: 0 30% ; 
+    margin: 10px  5% 0 0 ;
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -93,8 +65,8 @@ img{
 }
 
 .btn{  
-    margin-top: 10%;
-    margin-left: 50%;
+    margin-top: 15%;
+    margin-left: 38%;
     display: inline-block;
     padding: 2% 9%;
     text-decoration: none;
@@ -111,6 +83,7 @@ form span a{
     color: white;
 }
 
-
-
- 
+.loginBox input[type="checkbox"]{
+    padding: 0;
+    margin: 0;
+}
