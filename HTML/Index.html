@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="Veterinaria Acme" content="width=device-width, initial-scale=1.0">
+    <meta name="Veterinaria Acme" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
     <title>SCVA</title>
+    <link rel="stylesheet" href="../Estilos/ingreso.css">
 </head>
 <body>
-    <h1>Iniciar Sesión</h1>
-    <Form>
-        <h2>Ingrese su Usuario</h2>
-        <input type="text" name="Usuario" id="Usuario">
-        <br>
-        <h3>Ingrese la Contraseña</h3>
-        <input type="text" name="Contraseña" id="Contraseña">
-        <br>
-        <input type="submit" name="Enviar" id="Enviar">        
-        <br> 
-    </Form>
+    <div class="loginBox">
+        <h1>Iniciar Sesión</h1>
+        <Form>
+            <label for="userName">Ingrese su Usuario</label>
+            <input type="text" name="Usuario" id="Usuario">
+            <br>
+            <label for="PassWord">Ingrese su Contraseña</label>
+            <input type="password" name="Contraseña" id="Contraseña">
+            <br>
+            <input type="submit" value="Ingresar" id="Ingresar" href="#">        
+            <br> 
+        </Form>
+    </div>  
 </body>
 </html>
 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ab566bad4a.js" crossorigin="anonymous"></script>
+    <title>SCVA_RegistroUsuario</title>
+    <link rel="stylesheet" href="../Estilos/RegistroUsuario.css">
+    <link rel="stylesheet" href="../Estilos/BarraR.css"> 
+</head>
+<body>
+    <!--Menú-->
+    <nav>
+        <div class="logo"><strong><img src="../Estilos/image/logo-acme.png" alt=""></strong></div>
+        <ul class="links"> 
+            <li><a href="RegistroUsuario.html">Registrar Usuario</a></li>
+            <li><a href="RegistroProcedimiento.html">Registrar Procedimiento</a></li>
+            <li><a href="RegistroProducto.html">Registrar Producto</a>
+            </li>
+            <li><a href="#GeneroReporte">Generar Reporte</a></li>
+            <li> <a href="#"><span class="" ><i class="fas fa-user-tie"></i></span></a>
+                <ul>
+                   <li><a href="Ingreso.html"> Cerrar sesión</a></li>
+               </ul>
+            </li>
+            
+        </ul> 
+    </nav>
+    <!--Caja-->
+    <div class="loginBox">
+        <form class="RegistroUsuario">
+            <h1>Registro de Usuario</h1>
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="far fa-address-card"></i>
+                    <input type="number" placeholder="Documento de identidad">
+                
+                    <i class="fas fa-user-edit"></i>
+                    <input type="text" placeholder="Nombre">
+                </div> 
+
+                <div class="input-contenedor">
+                    <i class="fas fa-user-edit"></i>
+                    <input type="text" placeholder="Apellido">
+                 
+                    <i class="fas fa-phone-volume"></i>
+                    <input type="number" placeholder="Telefono">
+                </div>
+                
+                <div class="input-contenedor">
+                    <i class="fas fa-home"></i>
+                    <input type="text" placeholder="Dirección">
+                 
+                    <i class="fas fa-at"></i>
+                    <input type="email" placeholder="Correo">
+                </div>
+                
+                <div class="input-contenedor">
+                    <i class="far fa-user-circle"></i> 
+                    <select name="Cargo" id="Cargo" placeholder="Cargo" >
+                        <option value="r1">Cargo1</option>
+                        <option value="r2">Cargo2</option>
+                        <option value="r3">Cargo3</option>
+                    </select>
+                 
+                    <i class="fas fa-unlock-alt"></i>
+                    <input type="password" placeholder="Contrasena">
+                </div>
+            </div>
+
+            <!--
+            <div class="casilla">
+                <input type="checkbox" id="terms"><span>Aceptar los: <a href="">Términos y condiciones</a></span>
+            </div>
+            -->
+            <div id="boton">
+                <a href="RegistroUsuario.html" class="btn">Registrar</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
