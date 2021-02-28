@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ab566bad4a.js" crossorigin="anonymous"></script>
     <title>SCVA_Reporte</title>
+    
+    <link rel="stylesheet" href="../Estilos/Reporte.css">
+    <link rel="stylesheet" href="../Estilos/BarraR.css"> 
 </head>
 <body>
-    
+    <nav>
+        <div class="logo"><strong><img src="../Estilos/image/logo-acme.png" alt=""></strong></div>
+        <ul class="links"> 
+            <li><a href="RegistroUsuario.html">Registrar Usuario</a></li>
+            <li><a href="RegistroProcedimiento.html">Registrar Procedimiento</a></li>
+            <li><a href="RegistroProducto.html">Registrar Producto</a>
+            <li><a href="GenerarReporte.html">Generar Reporte</a></li>
+            <li> <a href="#"><span class="" ><i class="fas fa-user-tie"></i></span></a>
+                <ul>
+                   <li><a href="Ingreso.html"> Cerrar sesión</a></li>
+               </ul>
+            
+        </ul> 
+    </nav>
+    <!--Caja-->
+    <div class="loginBox"> 
+        <form class="GenerarReporte">
+            <h1>Generar reporte</h1>
+            <div class="contenedor">
+
+                <div class="input-contenedor">
+                    <label for="Name">Fecha inicial
+                    <i class="fas fa-clipboard-list"></i>
+                    <input type="date" placeholder="Fecha inicial">
+                </div>
+
+                <div class="input-contenedor"></div>
+                    <label for="Name">Fecha final &nbsp
+                    <i class="fas fa-clipboard-list"></i>
+                    <input type="date" placeholder="Fecha final">
+                </div>
+               
+               
+            <div id="boton">
+                <a href="GenerarReporte.html" class="btn">Generar</a>
+            </div>
+            
+        </form>
+    </div>
 </body>
 </html>
