@@ -55,6 +55,7 @@ img{
     margin-bottom: 30px;
 }
 
+
 .loginBox select{
     width: 40%;
     margin: 0  5% 0 0 ;
@@ -80,9 +81,8 @@ img{
 
 .loginBox input[type="email"],
 .loginBox input[type="text"],
-.loginBox input[type="number"],
-.loginBox input[type="password"]{ 
-    margin: 0  5% 0 0 ;
+.loginBox input[type="number"]{ 
+    margin: 0 30% ; 
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -93,7 +93,7 @@ img{
 }
 
 .btn{  
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 50%;
     display: inline-block;
     padding: 2% 9%;
@@ -111,64 +111,6 @@ form span a{
     color: white;
 }
 
-.casilla{
-    padding: 0;
-    margin: 0;
-}
 
-.loginBox input[type="checkbox"]{
-    padding: 0;
-    margin: 0;
-}
 
-/*los h1 que están en la caja*/
-.loginBox h1{
-    margin: 0;
-    padding: 0 0 40px;
-    text-align: center;
-    font-family: sans-serif;
-    color: #FFF;
-    text-shadow: black 0.1em 0.1em ;
-    font-size: 30px;
-}
-
-/*los label que están en la caja*/
-.loginBox label{
-    margin: 0;
-    padding: 1% 8%;
-    font-weight: bold;
-    text-shadow: black 0.1em 0.1em;
-    display: block;
-    font-size: 25px; 
-}
-
-/*los input que están en la caja*/
-.loginBox input{ 
-    width: 80%;
-    margin-bottom: 10%;
-}
  
-.loginBox input[type="text"],
-.loginBox input[type="password"]{
-    margin-left: 8%;
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 20px;   
-}
-
-/*los boton que están en la caja*/
-.btn{   
-    display: inline-block;
-    padding: 5% 24%;
-    margin: 1% 7%;
-    text-decoration: none;
-    background: #f50505; 
-    color: #fff;
-    font-size: 25px;
-    text-shadow: black 0.1em 0.1em;
-    border-radius: 7px;
-}
