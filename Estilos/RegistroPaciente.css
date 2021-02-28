@@ -38,7 +38,7 @@ img{
     font-family: sans-serif;
     color: #FFF;
     text-shadow: black 0.1em 0.1em ;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .loginBox label{
@@ -91,6 +91,7 @@ img{
     height: 40px;
     color: #fff;
     font-size: 15px;   
+    margin-top: 2%;
 }
 
 .btn{  
@@ -101,7 +102,7 @@ img{
     text-decoration: none;
     background: #f50505; 
     color: #fff;
-    font-size: 25px;
+    font-size: 22px;
     text-shadow: black 0.1em 0.1em;
     border-radius: 7px;
     transform: translate(-50%, -50%);

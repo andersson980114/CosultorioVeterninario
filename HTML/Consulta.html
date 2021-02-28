@@ -6,14 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
     <script src="https://kit.fontawesome.com/ab566bad4a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../Estilos/Consulta.css">
+    <link rel="stylesheet" href="../Estilos/BarraV.css">
+
     <title>Document</title>
 </head>
 <body>
+    <nav>
+        <div class="logo"><strong><img src="../Estilos/image/logo-acme.png" alt=""></strong></div>
+        <ul class="links">
+            <li><a href="Consulta.html">Registrar Consulta</a></li>
+            <li><a href="#Historial">Consultar Historial </a></li>
+            <li> <a href="#"><span class="" ><i class="fas fa-user-md"></i></span></a>
+                <ul>
+                   <li><a href="Ingreso.html"> Cerrar sesión</a></li>
+               </ul>
+            </li>
+            
+        </ul> 
+    </nav>
 
-    <div class="box">
-        <div class="logo">
-            <img src="../Estilos/image/logo-acme.png">
-        </div>
+    <div class="loginBox">
         <h1>Consulta</h1>
         <form class="Consulta"> 
             <div class="contenedor">
@@ -28,12 +40,13 @@
                     <input type="number" placeholder="Id dueño">
                 </div>
             </div>
-            <div id="header">
-                <ul class="Tipo">s
-                    <li><a href="">Consulta-general</a></li>
-                    <li><a href="">Peluqueria</a></li>
-                    <li><a href="">Quirurgico</a></li>
-                </ul>
+            <div class="input-contenedor">
+                <i class="fas fa-tasks"></i>
+                <select name="Tipo" id="TipoConsulta" placeholder="TipoConsulta" >
+                    <option  value="r1">Consulta1</option>
+                    <option value="r2">Consulta2</option>
+                    <option value="r3">Consulta3</option>
+                </select>
             </div>
             <div class="contenedor">
                 <div class="input-contenedor">
