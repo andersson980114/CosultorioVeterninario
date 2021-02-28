@@ -6,52 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ab566bad4a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../Estilos/BarraA.css">
+    <link rel="stylesheet" href="../Estilos/RegistrarProducto.css">
     <title>Document</title>
 </head>
 <body>
     <!--Barrita-->
     <nav>
-        <div class="logo">ACME<strong>CONSULTORIO VETERINARIO</strong></div>
-        <ul class="links">
-            <li><a href="UserRegister.html">Registrar Recepcionista</a></li>
-            <li><a href="UserRegister.html">Registrar Veterinario</a></li>
+        <div class="logo"><strong><img src="../Estilos/image/logo-acme.png" alt=""></strong></div>
+        <ul class="links"> 
+            <li><a href="RegistroUsuario.html">Registrar Usuario</a></li>
             <li><a href="RegistroProcedimiento.html">Registrar Procedimiento</a></li>
-            <li><a href="RegistroProducto.html">Registrar Producto</a></li>
+            <li><a href="RegistroProducto.html">Registrar Producto</a>
+            </li>
             <li><a href="#GeneroReporte">Generar Reporte</a></li>
-            <li><a href="Ingreso.html">Cerrar Sesión</a></li>
-
-        </ul>
+            <li> <a href="#"><span class="" ><i class="fas fa-user-tie"></i></span></a>
+                <ul>
+                   <li><a href="Ingreso.html"> Cerrar sesión</a></li>
+               </ul>
+            </li>
+            
+        </ul> 
     </nav>
-    <form class="RegistroProducto">
-        <h1>Registro de Productos</h1>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-barcode"></i>
-                <input type="number" placeholder="Id producto">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-clipboard-list"></i>
-                <input type="text" placeholder="Nombre">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-boxes"></i>
-                <input type="number" placeholder="Cantidad">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-dollar-sign"></i>
-                <input type="number" placeholder="Valor">
-            </div>
-            <input type="submit" value="Registrar" class="button">
-            <input type="submit" value="Atrás" class="button">
+    <!---->
+    <div class="loginBox">
+        <form class="RegistroProducto">
+            <h1>Registro de Productos</h1>
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="fas fa-barcode"></i>
+                    <input type="number" placeholder="ID Producto">
+                    
+                    <i class="fas fa-clipboard-list"></i>
+                    <input type="text" placeholder="Nombre">
+                </div>
+             
+                <div class="input-contenedor">
+                    <i class="fas fa-boxes"></i>
+                    <input type="number" placeholder="Cantidad">
 
-            <p>El ica registra y controla todo lo especificado aquí.</p>
-        </div>
-    </form>
+                    <i class="fas fa-dollar-sign"></i>
+                    <input type="number" placeholder="Valor">
+                </div>
+                <input type="submit" value="Registrar" class="btn">  
+            </div>
+        </form>
+    </div>
 </body>
 </html>

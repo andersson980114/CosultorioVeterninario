@@ -47,11 +47,11 @@ nav .links{
 }
 
 nav .links li{
-    list-style: none;
+    list-style: none; 
 }
 
 nav .links a{
-    display: block;
+    display: block; 
     padding: 1em;
     font-size: 16px;
     font-weight: bold;
@@ -66,10 +66,11 @@ ul,ol{
 }
 
 nav .links{
-    float: left;
+    float: left; 
 }
+
 nav li ul{
-    padding: 0; 
+    padding: 0;  
     display:none ;
     position: absolute;
     min-width: 10px;
@@ -81,10 +82,9 @@ nav li:hover > ul{
     display: block;
 }
 
-nav li ul li {
+nav div li ul li {
     position: relative;
 }
-
 
 nav .links span{
     color:rgb(255, 255, 255);
