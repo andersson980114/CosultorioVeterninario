@@ -1,11 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    background: url(image/fondo4.png) no-repeat center top;
-=======
     background: url(image/fondo2.jpg) no-repeat center top;
->>>>>>> aff2ecbb6eb4a2b8a592c5b3fa4f7417202d43a7
     background-size: cover ;
     font-family: sans-serif;
     height: 100vh;
@@ -42,16 +38,8 @@ img{
     font-family: sans-serif;
     color: #FFF;
     text-shadow: black 0.1em 0.1em ;
-    font-size: 40px;
+    font-size: 35px;
 }
-<<<<<<< HEAD
-.RegistroDueño{
-    margin-top: 20px;
-    width: 500px;
-    height: 600px;
-    background: #000000;
-    opacity: 60%;
-=======
 
 .loginBox label{
     margin: 0;
@@ -87,7 +75,6 @@ img{
     background: rgba(46, 39, 39, 0.541);
     outline: none;
     height: 35px;
->>>>>>> aff2ecbb6eb4a2b8a592c5b3fa4f7417202d43a7
     color: #fff;
     font-size: 15px;   
 } 
@@ -132,22 +119,18 @@ img{
     outline: none;
     height: 40px;
     color: #fff;
-    font-size: 18px;   
+    font-size: 18px;  
+    margin-top: 5%; 
 }
 
 .btn2{  
-    margin-top: 0%;
-    margin-left: 60%; 
-    padding: 5px 20px;  
+    margin-top: 13%;
+    margin-left: 30%; 
+    padding: 8px 20px;  
     font-size: 20px; 
     border-radius: 7px;
     transform: translate(-15%, -130%);
     text-align: center;
-<<<<<<< HEAD
-    font-size: 18px;
-    
-=======
->>>>>>> aff2ecbb6eb4a2b8a592c5b3fa4f7417202d43a7
 }
 
 form span a{ 
@@ -155,13 +138,6 @@ form span a{
     color: white;
 }
 
-<<<<<<< HEAD
-form .RegistrarDueño, form .RegistrarD{
-    width: 10%;
-    height: 30px;
-    padding: 20px;
-    font-size: 1.2em;
-=======
 .casilla{
     padding: 0;
     margin: 0;
@@ -170,5 +146,4 @@ form .RegistrarDueño, form .RegistrarD{
 .loginBox input[type="checkbox"]{
     padding: 0;
     margin: 0;
->>>>>>> aff2ecbb6eb4a2b8a592c5b3fa4f7417202d43a7
 }

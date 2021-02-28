@@ -5,45 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ab566bad4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../Estilos/Factura.css"> 
+    <link rel="stylesheet" href="../Estilos/BarraR.css"> 
     <title>Document</title>
 </head>
 <body>
-    <form class="Factura">
-        <h1>Registro de Productos</h1>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-barcode"></i>
-                <input type="number" placeholder="Id factura">
+    <nav>
+        <div class="logo"><strong><img src="../Estilos/image/logo-acme.png" alt=""></strong></div>
+            <ul class="links">
+                <li><a href="RegistroDueno.html">Registrar Propietario</a></li>
+                <li><a href="RegistroPaciente.html">Registrar Paciente</a></li>
+                <li><a href="Factura.html">Facturar</a></li>
+                <li> <a href="#"><span class="" ><i class="fas fa-chalkboard-teacher"></i></span></a>
+                <ul>
+                   <li><a href="Ingreso.html"> Cerrar sesión</a></li>
+               </ul>
+            </li>
+            </ul>
+    </nav> 
+    <div class="loginBox"> 
+        <form class="Factura">
+            <h1>Facturación</h1>
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="fas fa-barcode"></i>
+                    <input type="number" placeholder="Id factura">
+                </div>
             </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-barcode"></i>
-                <input type="number" placeholder="Id producto">
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="fas fa-barcode"></i>
+                    <input type="number" placeholder="Id producto">
+                </div>
             </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-barcode"></i>
-                <input type="number" placeholder="Id consulta">
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="fas fa-barcode"></i>
+                    <input type="number" placeholder="Id consulta">
+                </div>
             </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-barcode"></i>
-                <input type="number" placeholder="Id procedimiento">
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="fas fa-barcode"></i>
+                    <input type="number" placeholder="Id procedimiento">
+                </div>
             </div>
-        </div>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-dollar-sign"></i>
-                <input type="number" placeholder="Valor toal">
-            </div>
-            <input type="submit" value="Generar factura" class="button">
-            <input type="submit" value="Atrás" class="button">
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="fas fa-dollar-sign"></i>
+                    <input type="number" placeholder="Valor total">
+                </div>
+                <input type="submit" value="Generar factura" class="button">
+                <input type="submit" value="Atrás" class="button">
 
-            <p>Comvezcol</p>
-        </div>
-    </form>
+                <p>Comvezcol</p>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
