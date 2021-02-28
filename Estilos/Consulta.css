@@ -15,10 +15,10 @@ img{
 }
 
 .loginBox{
-    margin-top: 240px;
+    margin-top: 230px;
     margin-bottom: 150px;
-    width: 700px;
-    height: 450px;
+    width: 500px;
+    height: 490px;
     background: #000000;
     opacity: 80%;
     color: #fff;
@@ -27,7 +27,7 @@ img{
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box; 
-    padding: 3% 20%; 
+    padding: 2% 13%; 
     border-radius: 7px;
 }
 
@@ -55,4 +55,52 @@ img{
     color: #fff;
     font-size: 18px;  
     padding: 5px; 
+}
+
+.loginBox input[type="date"]{  
+    margin: 10px  5% 0 0 ;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: rgba(46, 39, 39, 0.541);
+    outline: none;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;   
+} 
+
+.loginBox input[type="time"]{  
+    margin: 10px  5% 0 0 ;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: rgba(46, 39, 39, 0.541);
+    outline: none;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;   
+} 
+
+.loginBox select{
+    width: 90%;
+    margin: 0  5% 0 0 ;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: rgba(0, 0, 0, 0.685);
+    outline: none;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;   
+}
+
+.btn{  
+    margin-top: 27%;
+    margin-left: 50%;
+    display: inline-block;
+    padding: 3% 20%;
+    text-decoration: none;
+    background: #f50505; 
+    color: #fff;
+    font-size: 20px;
+    text-shadow: black 0.1em 0.1em;
+    border-radius: 7px;
+    transform: translate(-50%, -50%);
 }
