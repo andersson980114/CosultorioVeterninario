@@ -132,22 +132,21 @@ textarea{
     border-radius: 7px;
     transform: translate(-50%, -50%);
 }
-.btn2{   
-    display: inline-block;   
-    margin-top: 3%;
-    margin-left: 22%; 
-    padding: 1% 1%; 
-    background: #f50505; 
-    color: #fff;
-    text-shadow: black 0.1em 0.1em;
-    border-radius: 7px;
-    transform: translate(-50%, -50%);
-}
+
 .btnP{   
     display: inline-block;   
     padding: 1% 1%; 
     margin-top: 1%;
     margin-left: 12%; 
+    background: #ffffff; 
+    color: rgb(14, 14, 14); 
+    border-radius: 50px;  
+}
+.btnR{   
+    display: inline-block;   
+    padding: 1% 1%; 
+    margin-top: 1%;
+    margin-left: 1%; 
     background: #ffffff; 
     color: rgb(14, 14, 14); 
     border-radius: 50px;  
