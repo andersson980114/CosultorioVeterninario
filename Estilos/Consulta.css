@@ -119,6 +119,30 @@ textarea{
     transform: translate(-50%, -50%);
 }
 
+.btn1{  
+    margin-top: 3%;
+    margin-left: 22%;
+    display: inline-block;
+    padding: 2% 9%;
+    text-decoration: none;
+    background: #f50505; 
+    color: #fff;
+    font-size: 22px;
+    text-shadow: black 0.1em 0.1em;
+    border-radius: 7px;
+    transform: translate(-50%, -50%);
+}
+.btn2{   
+    display: inline-block;   
+    margin-top: 3%;
+    margin-left: 22%; 
+    padding: 1% 1%; 
+    background: #f50505; 
+    color: #fff;
+    text-shadow: black 0.1em 0.1em;
+    border-radius: 7px;
+    transform: translate(-50%, -50%);
+}
 .btnP{   
     display: inline-block;   
     padding: 1% 1%; 
@@ -133,3 +157,5 @@ textarea{
 form span a{ 
     color: white;
 }
+
+

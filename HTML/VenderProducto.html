@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ab566bad4a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../Estilos/Factura.css"> 
+    <link rel="stylesheet" href="../Estilos/Consulta.css"> 
     <link rel="stylesheet" href="../Estilos/BarraR.css"> 
     <title>SCVA_Factura</title>
 </head>
@@ -27,16 +27,29 @@
         <form class="Factura">
             <h1>Facturación</h1>
 
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="fas fa-barcode"></i>
+                    <input type="number" placeholder="Id factura">
+                    <i class="fas fa-barcode"></i>
+                    <input type="number" placeholder="Id producto">
+                    <i class="fas fa-dollar-sign"></i>
+                    <input type="number" placeholder="Valor total">
+                </div>
 
-            <div id="boton">
-                <a href="VenderProducto.html" class="btn">Productos</a>
-                <a href="VenderOtro.html" class="btn">Otros</a>
+                <div id="boton"> 
+            
+                    <a href="#" class="btnP" ><i class="fas fa-plus-circle"></i>  Añadir Producto</a>
+                </div>
+ 
+                <div id="productos"> 
+                    <textarea name="productos" id="productos" cols="58" rows="7" placeholder="productos"> </textarea>
+                    <a href="VenderProducto.html" class="btn1">Facturar</a>
+                    <a href="Factura.html" class="btn1">Atrás</a>
+                    
+                </div>
+                
             </div>
-
-            
-            
-
-
         </form>
     </div>
 </body>

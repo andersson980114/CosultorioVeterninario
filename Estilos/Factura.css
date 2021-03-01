@@ -7,6 +7,7 @@ body{
     height: 100vh;
 }
 
+
 .loginBox{
     margin-top: 240px;
     margin-bottom: 150px;
@@ -47,4 +48,18 @@ body{
     color: #fff;
     font-size: 15px;   
     margin-top: 2%;
+}
+
+.btn{  
+    margin-top: 12%;
+    margin-left: 50%;
+    display: inline-block;
+    padding: 2% 9%;
+    text-decoration: none;
+    background: #f50505; 
+    color: #fff;
+    font-size: 22px;
+    text-shadow: black 0.1em 0.1em;
+    border-radius: 7px;
+    transform: translate(-50%, -50%);
 }
