@@ -51,7 +51,7 @@ body{
 .loginBox .contenedor{
     margin-left: 20%;
 }
- 
+  
 .loginBox input[type="text"],
 .loginBox input[type="number"]{ 
     margin: 10px  5% 0 0 ;
