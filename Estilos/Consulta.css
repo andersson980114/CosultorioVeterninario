@@ -119,6 +119,20 @@ textarea{
     transform: translate(-50%, -50%);
 }
 
+.btn1{  
+    margin-top: 3%;
+    margin-left: 22%;
+    display: inline-block;
+    padding: 2% 9%;
+    text-decoration: none;
+    background: #f50505; 
+    color: #fff;
+    font-size: 22px;
+    text-shadow: black 0.1em 0.1em;
+    border-radius: 7px;
+    transform: translate(-50%, -50%);
+}
+
 .btnP{   
     display: inline-block;   
     padding: 1% 1%; 
@@ -128,8 +142,19 @@ textarea{
     color: rgb(14, 14, 14); 
     border-radius: 50px;  
 }
+.btnR{   
+    display: inline-block;   
+    padding: 1% 1%; 
+    margin-top: 1%;
+    margin-left: 1%; 
+    background: #ffffff; 
+    color: rgb(14, 14, 14); 
+    border-radius: 50px;  
+}
  
 
 form span a{ 
     color: white;
 }
+
+
