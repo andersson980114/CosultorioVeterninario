@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ab566bad4a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../Estilos/BarraA.css">
-    <link rel="stylesheet" href="../Estilos/RegistrarProducto.css">
-    <title>SCVA_Document</title>
+    <link rel="stylesheet" href="../Estilos/BuscarProcedimiento.css">
+    <title>SCVA_Procedimiento</title>
 </head>
 <body>
-    <!--Barrita-->
     <nav>
         <div class="logo"><strong><img src="../Estilos/image/logo-acme.png" alt=""></strong></div>
         <ul class="links"> 
@@ -46,24 +45,27 @@
     <!--Caja-->
     <div class="loginBox">
         <form class="RegistroProducto">
-            <h1>Registro de productos</h1>
+            <h1>Buscar Procedimiento</h1>
             <div class="contenedor">
                 <div class="input-contenedor">
                     <i class="fas fa-barcode"></i>
-                    <input type="number" placeholder="ID Producto">
-                    
-                    <i class="fas fa-clipboard-list"></i>
-                    <input type="text" placeholder="Nombre">
+                    <input type="number" placeholder="Id procedimiento">
+                    <button>
+                        <i class="fas fa-search"></i>
+                    </button>
                 </div>
-             
+                <br>
+
                 <div class="input-contenedor">
-                    <i class="fas fa-boxes"></i>
-                    <input type="number" placeholder="Cantidad">
+                    <i class="fas fa-clipboard-list"></i>
+                    <input type="text" placeholder="Nombre" disabled>
 
                     <i class="fas fa-dollar-sign"></i>
                     <input type="number" placeholder="Valor">
                 </div>
-                <input type="submit" value="Registrar" class="btn">  
+                 
+                
+                <input type="submit" value="Actualizar" class="btn">  
             </div>
         </form>
     </div>
