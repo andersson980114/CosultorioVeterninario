@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ab566bad4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../Estilos/BarraA.css">
+    <link rel="stylesheet" href="../Estilos/BuscarUsuario.css">
+    <title>SCVA_Administrador</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"><strong><img src="../Estilos/image/logo-acme.png" alt=""></strong></div>
+        <ul class="links"> 
+            <li><a href="#">Gestionar Usuarios</a>
+                <ul>
+                    <li><a href="RegistroUsuario.html">Registrar Usuario</a></li>
+                    <li><a href="BuscarUsuario.html">Buscar Usuario</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Gestionar Procedimientos</a>
+                <ul>
+                    <li><a href="RegistroProcedimiento.html">Registrar Procedimiento</a></li>
+                    <li><a href="BuscarProcedimiento.html">Buscar Procedimiento</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Gestionar Productos</a>
+                <ul>
+                    <li><a href="RegistroProducto.html">Registrar Producto</a></li>
+                    <li><a href="BuscarProducto.html">Buscar Producto</a></li>
+                </ul>
+            </li>
+
+            <li><a href="GenerarReporte.html">Generar Reporte</a> </li>
+
+            <li> <a href="#"><span class="" ><i class="fas fa-user-tie"></i></span></a>
+                <ul>
+                   <li><a href="Ingreso.html"> Cerrar sesión</a></li>
+                </ul>
+            </li> 
+        </ul> 
+    </nav>
+
+    <div class="loginBox">
+        <form class="RegistroUsuario">
+            <h1>Buscar usuario</h1>
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="far fa-address-card"></i>
+                    <input type="number" placeholder="Documento de identidad"  >
+
+                    <button>
+                        <i class="fas fa-search"></i>
+                    </button>
+                    
+                </div> 
+
+                <div class="input-contenedor">
+                    <i class="fas fa-user-edit"></i>
+                    <input id="desabilitado" type="text" placeholder="Nombre" disabled>
+
+                    <i class="fas fa-user-edit"></i>
+                    <input class="desabilitado" type="text" placeholder="Apellido" disabled>
+                  
+                </div>
+                
+                <div class="input-contenedor">
+                    <i class="fas fa-phone-volume"></i>
+                    <input type="number" placeholder="Telefono">
+
+                    <i class="fas fa-home"></i>
+                    <input type="text" placeholder="Dirección">
+                 
+                    
+                </div>
+                
+                <div class="input-contenedor">
+                    <i class="fas fa-at"></i>
+                    <input type="email" placeholder="Correo">
+
+                    <i class="far fa-user-circle"></i> 
+                    <input class="desabilitado" type="Text" placeholder="Cargo" disabled>
+                </div>
+
+                <div class="input-contenedor">
+                    <i class="fas fa-unlock-alt"></i>
+                    <input type="password" placeholder="Contraseña">
+                </div>
+            </div>
+ 
+            <div id="boton">
+                <a href="#" class="btn">Actualizar</a>
+            </div>
+        </form>
+    </div>
+
+
+    
+</body>
+</html>
