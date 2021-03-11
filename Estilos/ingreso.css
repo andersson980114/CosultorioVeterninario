@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(image/fondo4.png) no-repeat center top;
+    background: url(image/FondoInicio.jpg) no-repeat center top; 
     background-size: cover ;
     font-family: sans-serif;
     height: 100vh;
@@ -10,7 +10,8 @@ body{
 
 img{
     padding:1% 1%;
-    width: 100%;
+    margin-left: 2%;
+    width: 95%;
     height: 20%;
 }
 
@@ -23,7 +24,7 @@ img{
     opacity: 90%;
     color: #fff;
     top: 50%;
-    left: 50%;
+    left: 75%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
@@ -38,7 +39,7 @@ img{
     font-family: sans-serif;
     color: #FFF;
     text-shadow: black 0.1em 0.1em ;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /*los label que están en la caja*/

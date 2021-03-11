@@ -14,8 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from apps.gestion.views import Ingreso
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    #nueva url enlazada        direccion
+    path('gestion/', include(('apps.gestion.urls', 'gestion'))),
+    path('Ingreso/', Ingreso, name ='Ingreso')
 ]
