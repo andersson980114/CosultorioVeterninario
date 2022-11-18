@@ -3,9 +3,6 @@
 <p align="center"> 
     <img alt="EduText" title="EduText" src="https://user-images.githubusercontent.com/70853111/202816356-f8b25ebe-5f04-4739-ba40-a1ff866d1cc9.png" width="540">
 </p> 
-<p align="center">
-  Construido con Django y React.
-</p>
 
 
 
@@ -53,6 +50,7 @@ Algunas de sus caracteristicas son:
   <img src = "https://user-images.githubusercontent.com/70853111/202817716-532f3686-7d58-4494-a1c6-2c75d114ff23.png" width=850>
 </p>  
 
+
 ## UsuarioCaja
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70853111/202817889-28fd6c02-32ed-4dc2-bfd0-53b9c1a6d1a5.png" width=850>
@@ -62,6 +60,7 @@ Algunas de sus caracteristicas son:
   <img src = "https://user-images.githubusercontent.com/70853111/202818002-f912f658-2de0-423f-b467-c29b02485875.png" width=850>
 </p>
  
+ 
 ## Veterinario
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70853111/202818351-a3537eff-8f41-4c11-b85c-f6055d03c018.png" width=850>
@@ -70,6 +69,7 @@ Algunas de sus caracteristicas son:
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70853111/202818272-b078fee3-6715-4b56-b444-c41b2fe7eee4.png" width=850>
 </p>
+  
   
 ## Colaboradores 
 
