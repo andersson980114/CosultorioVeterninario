@@ -62,7 +62,7 @@ Algunas de sus caracteristicas son:
   <img src = "https://user-images.githubusercontent.com/70853111/202818002-f912f658-2de0-423f-b467-c29b02485875.png" width=850>
 </p>
  
-## UsuarioCaja
+## Veterinario
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70853111/202818351-a3537eff-8f41-4c11-b85c-f6055d03c018.png" width=850>
 </p>  
