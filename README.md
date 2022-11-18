@@ -60,16 +60,16 @@ Algunas de sus caracteristicas son:
 
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70853111/202818002-f912f658-2de0-423f-b467-c29b02485875.png" width=850>
-</p
+</p>
  
-## Veterinario
+## UsuarioCaja
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70853111/202818351-a3537eff-8f41-4c11-b85c-f6055d03c018.png" width=850>
 </p>  
 
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70853111/202818272-b078fee3-6715-4b56-b444-c41b2fe7eee4.png" width=850>
-</p
+</p>
   
 ## Colaboradores 
 
